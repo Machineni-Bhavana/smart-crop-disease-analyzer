@@ -1,0 +1,2 @@
+This is a placeholder for the dataset.
+Please place your image data inside this folder, structured by classes (e.g., data/Healthy, data/Apple_Rust, etc.)
