@@ -1,0 +1,9 @@
+{
+    "accuracy": 0.9847074468085106,
+    "precision_weighted": 0.984762108557883,
+    "recall_weighted": 0.9847074468085106,
+    "f1_weighted": 0.9843394780899228,
+    "precision_macro": 0.9883740071429389,
+    "recall_macro": 0.9694757303412153,
+    "f1_macro": 0.9779441116159382
+}

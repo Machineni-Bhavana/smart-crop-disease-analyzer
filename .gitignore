@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data and large model checkpoints
+models/*.pth
+models/*.h5
+models/*.keras
+!models/.gitkeep
+
+# Generated outputs
+outputs/*.png
+outputs/*.csv
+outputs/*.json
+!outputs/.gitkeep
+
+# Environment variables
+.env
+
+# IDE / OS metadata
+.DS_Store
+.vscode/
+.idea/

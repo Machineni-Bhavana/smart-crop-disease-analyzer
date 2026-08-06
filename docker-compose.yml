@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  smart-crop-disease-analyzer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: smart-crop-disease-analyzer:latest
+    container_name: crop_disease_analyzer_app
+    ports:
+      - "8501:8501"
+    environment:
+      - LOG_LEVEL=INFO
+      - FORCE_DEVICE=cpu
+    restart: unless-stopped
